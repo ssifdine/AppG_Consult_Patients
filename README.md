@@ -1,0 +1,1 @@
+Application JavaFX pour gérer patients et consultations médicales. Permet d'ajouter, modifier et supprimer des dossiers avec recherche en temps réel. Interface intuitive avec synchronisation automatique entre modules. Architecture MVC et services DAO. Solution idéale pour l'informatisation des cabinets médicaux.
