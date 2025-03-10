@@ -88,7 +88,7 @@ public class ConsultationDao implements IConsultationDao{
         while(rs.next()){
             Consultation c = new Consultation();
             c.setId(rs.getLong("id_consultation"));
-            c.setDate(rs.getDate("date_consultation"));
+            c.setDate(rs.getDate("dateConsultation"));
             c.setDescription(rs.getString("description"));
             c.setPatient(new PatientDao().findById(rs.getLong("id_patient")));
             consultations.add(c);

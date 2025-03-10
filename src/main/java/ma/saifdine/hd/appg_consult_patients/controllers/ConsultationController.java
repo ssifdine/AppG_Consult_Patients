@@ -201,5 +201,6 @@ public class ConsultationController implements Initializable {
         timeline.setCycleCount(1);
         timeline.play();
         loadConsultations();
+        clearFields();
     }
 }
