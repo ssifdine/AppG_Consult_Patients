@@ -166,6 +166,7 @@ public class ConsultationController implements Initializable {
             alert.setTitle("ATTENTION ⛔📛💥");
             alert.setHeaderText("Veuillez selectionner une consultation avant la modification");
             alert.showAndWait();
+            return;
         }
         else {
             selectedConsultation.setDate(Date.valueOf(datePickerConsultation.getValue()));
